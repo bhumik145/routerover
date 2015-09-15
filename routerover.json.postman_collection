@@ -1,0 +1,31 @@
+{
+	"id": "f1ede5f0-afae-5006-36e9-642261b7222e",
+	"name": "routerover",
+	"requests": [
+		{
+			"id": "5ea618bb-dc64-11c5-bd48-09d31ebde5ea",
+			"headers": "Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,text/png,*/*;q=0.5\nAccept-Language: en-us,en;q=0.5\nAccept-Charset: ISO-8859-1\nContent-type: application/x-www-form-urlencoded\nHost: http://10.254.187.198:8000/\nReferer: \nContent-Type: application/json\n",
+			"url": "http://10.254.187.198:8000/mapper/",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "f1ede5f0-afae-5006-36e9-642261b7222e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "mapper",
+			"description": "Mapper request with source, dest and intermediate points.",
+			"descriptionFormat": "html",
+			"time": 1438809635165,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"points\":\n        [{\"latitude\": \"370\",\"longitude\": \"400\"},\n        {\"latitude\": \"300\",\"longitude\": \"400\"},\n        {\"latitude\": \"300\",\"longitude\": \"400\"}],\n    \"source\":\n    {\n        \"latitude\": \"100\",\n        \"longitude\": \"200\"\n    },\n    \"destination\":\n    {\n        \"latitude\": \"300\",\n        \"longitude\": \"400\"\n    }\n}"
+		}
+	],
+	"order": [
+		"5ea618bb-dc64-11c5-bd48-09d31ebde5ea"
+	],
+	"timestamp": 1438809635165
+}
